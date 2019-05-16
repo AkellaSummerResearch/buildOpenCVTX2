@@ -150,7 +150,6 @@ time cmake -D CMAKE_BUILD_TYPE=RELEASE \
       -D WITH_GSTREAMER=ON \
       -D WITH_GSTREAMER_0_10=OFF \
       -D WITH_QT=ON \
-      -D WITH_OPENGL=ON \
       ../
 
 if [ $? -eq 0 ] ; then
